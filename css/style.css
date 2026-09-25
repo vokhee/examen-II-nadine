@@ -203,12 +203,14 @@ body{
 
 .pizza-banner{
     margin: 14px -8px 17px;
+    height: 220px;
     overflow: hidden;
 }
 
 .pizza-banner img{
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
 }
 
@@ -336,4 +338,11 @@ body{
 
 .bottom-space{
     height: 25px;
+}
+
+
+@media (max-width: 600px){
+    .pizza-banner{
+        height: 180px;
+    }
 }
