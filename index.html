@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Nadine Dayanara Hernández López - 12311175</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/framework7@8/framework7-bundle.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="app">
+
+    <section class="panel panel-left panel-cover food-panel">
+
+        <div class="panel-user-card">
+            <div class="panel-avatar">
+                <i class="material-icons">person</i>
+            </div>
+
+            <div class="panel-user-text">
+                <h3>Nadine López</h3>
+                <p>nadine@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="panel-menu-card">
+
+            <a href="/" class="panel-close panel-menu-link">
+                <span class="panel-menu-icon">
+                    <i class="material-icons">home</i>
+                </span>
+                <span>Home</span>
+            </a>
+
+            <a href="/categories/" class="panel-close panel-menu-link">
+                <span class="panel-menu-icon">
+                    <i class="material-icons">view_list</i>
+                </span>
+                <span>Categories</span>
+            </a>
+
+            <a href="#" class="panel-close panel-menu-link">
+                <span class="panel-menu-icon">
+                    <i class="material-icons">favorite</i>
+                </span>
+                <span>Favorites</span>
+            </a>
+
+            <a href="#" class="panel-close panel-menu-link">
+                <span class="panel-menu-icon">
+                    <i class="material-icons">shopping_bag</i>
+                </span>
+                <span>My Orders</span>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <div class="view view-main view-init">
+
+        <section data-name="home" class="page">
+
+            <nav class="navbar food-navbar">
+                <div class="navbar-bg"></div>
+
+                <div class="navbar-inner">
+                    <div class="left">
+                        <a href="#" class="link panel-open" data-panel="left">
+                            <i class="material-icons">menu</i>
+                        </a>
+                    </div>
+
+                    <div class="title">Food Order</div>
+
+                    <div class="right">
+                        <a href="#" class="link">
+                            <i class="material-icons">account_circle</i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+
+            <section class="page-content food-content">
+
+                <div class="section-title">
+                    <h2>Popular Item</h2>
+                    <a href="#">see all</a>
+                </div>
+
+                <div class="row product-row">
+
+                    <div class="col-50">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="img/beef-burger.png" alt="Beef Burger">
+                            </div>
+
+                            <h3>Beef Burger</h3>
+                            <p>Cheesy Mozzarella</p>
+
+                            <div class="product-bottom">
+                                <strong>$7.90</strong>
+
+                                <a href="#" class="add-button">
+                                    <i class="material-icons">add_box</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-50">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="img/big-mac.png" alt="Big Mac">
+                            </div>
+
+                            <h3>Big Mac</h3>
+                            <p>Cheesy Mozzarella</p>
+
+                            <div class="product-bottom">
+                                <strong>$7.90</strong>
+
+                                <a href="#" class="add-button">
+                                    <i class="material-icons">add_box</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="pizza-banner">
+                    <img src="img/pizza-banner.png" alt="Free Pizza">
+                </div>
+
+
+                <div class="section-title recommend-title">
+                    <h2>Recommend Item</h2>
+                    <a href="#">see all</a>
+                </div>
+
+                <swiper-container class="recommend-swiper" space-between="10" slides-per-view="1">
+
+                    <swiper-slide>
+                        <div class="recommend-card">
+                            <img src="img/apple-pie.png" alt="Apple Pie">
+
+                            <div class="recommend-text">
+                                <h3>Apple Pie</h3>
+                                <p>Dessert</p>
+                                <strong>$4.70</strong>
+                            </div>
+
+                            <a href="#" class="recommend-add">
+                                <i class="material-icons">add_box</i>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="recommend-card">
+                            <img src="img/donuts.png" alt="Donuts">
+
+                            <div class="recommend-text">
+                                <h3>Donuts</h3>
+                                <p>Dessert</p>
+                                <strong>$4.50</strong>
+                            </div>
+
+                            <a href="#" class="recommend-add">
+                                <i class="material-icons">add_box</i>
+                            </a>
+                        </div>
+                    </swiper-slide>
+
+                </swiper-container>
+
+                <div class="bottom-space"></div>
+            </section>
+
+
+            <div class="toolbar toolbar-bottom food-toolbar">
+                <div class="toolbar-inner">
+
+                    <a href="/" class="link active">
+                        <i class="material-icons">home</i>
+                    </a>
+
+                    <a href="/categories/" class="link">
+                        <i class="material-icons">sell</i>
+                    </a>
+
+                    <a href="#" class="link">
+                        <i class="material-icons">shopping_basket</i>
+                    </a>
+
+                    <a href="#" class="link">
+                        <i class="material-icons">notifications</i>
+                    </a>
+
+                    <a href="#" class="link">
+                        <i class="material-icons">account_circle</i>
+                    </a>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/framework7@8/framework7-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
